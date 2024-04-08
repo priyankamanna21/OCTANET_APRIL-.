@@ -1,0 +1,72 @@
+body{
+    background: url(laptop.jpg) no-repeat center fixed;
+    background-size: cover;
+    position: relative;
+}
+.container{
+    position:absolute;
+    width:auto;
+    margin: 20px;
+}
+.top-nav{
+    margin-left: 50px;
+}
+
+.top-nav a{
+    padding: 14px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color:white;
+
+}
+.top-nav a:hover{
+    background-color:darkgray;
+    color: black;
+}
+h1,h2{
+    
+    text-align: center;
+    color:rgb(83, 83, 6);
+  
+}
+.logo-img{
+    margin-left: 90px;
+}
+.bg{
+    display: flex;
+}
+.btn{
+    border-radius: 50px;
+    border: none;
+    margin-left: 330px;
+}
+.search-bar{
+
+   position: absolute;
+   top:26px;
+   right: 80px;
+   
+   
+}
+.search-bar i{
+    color: bisque;
+    
+}
+.search-bar i:hover{
+
+    color:black;
+}
+
+.search-input{
+    height: 35px;
+    width: 280px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    padding:15px;
+}
+
+
+
+
